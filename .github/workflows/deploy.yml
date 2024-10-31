@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "rndm"
-          entrypoint: "https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts"
+          entrypoint: "jsr:@deno/nextjs-start/v15"
           root: "."
           include: .next, public
           
